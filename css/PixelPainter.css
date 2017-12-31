@@ -1,0 +1,62 @@
+#pp-canvas {
+    height: 500px;
+    width: 700px;
+    border-style: solid;
+    padding: none;
+}
+
+#color-swatch {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+#color-grid {
+    width: 150px;
+    height: 300px;
+    border-style: solid;
+    margin: 22.5px;
+    cursor: pointer;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+    margin: 5px;
+    margin-left: 60px;
+    font-size: 20px;
+    background-color: #c7c2c2;
+    cursor: pointer;
+    box-shadow: 0 3px #d6d1d1;
+}
+
+button:hover {
+    background-color: #29a6e0
+}
+
+button:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#canvas {
+    position: relative;
+    height: 100%;
+    width: 494px;
+    border-style: solid;
+    float: right;
+    right: -3px;
+    top: -3px;
+    overflow: hidden;
+}
+
+table, tr, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 0;
+}
