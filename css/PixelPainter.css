@@ -12,11 +12,12 @@
 }
 
 #color-grid {
-    width: 150px;
-    height: 300px;
+    width: 169px;
+    height: 297px;
     border-style: solid;
-    margin: 22.5px;
+    margin: 15px;
     cursor: pointer;
+    overflow: hidden;
 }
 
 button {
@@ -26,17 +27,20 @@ button {
     margin: 5px;
     margin-left: 60px;
     font-size: 20px;
-    background-color: #c7c2c2;
     cursor: pointer;
     box-shadow: 0 3px #d6d1d1;
 }
 
-button:hover {
-    background-color: #29a6e0
+#clear {
+    background-color: #e02929;
+}
+
+#clear:hover {
+    background-color: #2ccf2c;
 }
 
 button:active {
-    transform: translateY(4px);
+    transform: translateY(3px);
     box-shadow: none;
 }
 
@@ -58,5 +62,8 @@ button:focus {
 table, tr, td {
     border: 1px solid;
     border-collapse: collapse;
-    padding: 0;
+}
+
+h1 {
+    text-align: center;
 }
